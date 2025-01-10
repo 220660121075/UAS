@@ -30,8 +30,8 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal A
 
 Clone repositori ini dari GitHub ke komputer Anda:
 
-git clone https://github.com/username/repository-name.git
-cd repository-name
+git clone https://github.com/220660121075/UAS.git
+cd UAS
 
 2. Instal Dependensi
 
@@ -52,7 +52,7 @@ DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=uas_project
 DB_USERNAME=root
-DB_PASSWORD=yourpassword
+DB_PASSWORD=
 
 Migrasikan tabel ke database:
 
@@ -66,7 +66,7 @@ php artisan serve
 
 Akses aplikasi di browser melalui:
 
-http://127.0.0.1:8000
+http://127.0.0.1:8000/visitors
 
 API Endpoint
 
